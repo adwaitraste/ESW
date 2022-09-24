@@ -83,7 +83,7 @@ function App() {
       </Grid>
       <Grid item xs={6}>
       <Typography variant="h6" sx={{ py: 4 }}>
-          Train Accuracy
+          Accuracy
         </Typography>
 
         <Line data={data} />
