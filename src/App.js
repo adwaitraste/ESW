@@ -58,7 +58,7 @@ function App() {
 
   React.useEffect(() => {
 
-    fetch('https://api.thingspeak.com/channels/1579755/fields/3.json?results=5')
+    fetch('https://api.thingspeak.com/channels/1579755/fields/3.json?results=10')
       .then(res => res.json())
       .then(data => setJsonData(data["feeds"]))
 
