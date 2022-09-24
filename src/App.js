@@ -51,6 +51,13 @@ const parseTime = (input) => {
   return output;
 }
 
+const decrypt = (input) => {
+  
+  // add decryption code
+  
+  return input;
+}
+
 function App() {
 
 
@@ -101,7 +108,7 @@ function App() {
                     {parseTime(e["created_at"])}
                   </TableCell>
                   <TableCell>
-                    {e["field3"]}
+                    {decrypt(e["field3"])}
                   </TableCell>
                 </TableRow>
               })}
